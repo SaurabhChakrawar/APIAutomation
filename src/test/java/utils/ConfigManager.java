@@ -21,7 +21,15 @@ public class ConfigManager {
 	}
 
 	public static String getProperty(String key) {
-		return properties.getProperty(key);
+		String env = System.getProperty("env", "dev"); // default dev
+		String path = "src/test/resources/config/config-" + env + ".properties";
+		try (FileInputStream input = new FileInputStream(path)) {
+			Properties props = new Properties();
+			props.load(input);
+			return props.getProperty(key);
+		} catch (IOException e) {
+			throw new RuntimeException("Failed to load config for env: " + env, e);
+		}
 	}
 
 	public static void setProperty(String key, String value) {
