@@ -8,18 +8,18 @@ import utils.AuthUtil;
 
 public class AuthTests extends BaseTest {
 
-//    @Test
-//    public void testApiKeyAuth() {
-//        int statusCode = RestAssured
-//            .given()
-//                .headers(AuthUtil.getApiKeyHeaders())
-//            .when()
-//                .get("/secure/resource")
-//            .then()
-//                .extract().statusCode();
-//
-//        Assert.assertEquals(statusCode, 200, "API Key auth failed!");
-//    }
+    @Test
+    public void testApiKeyAuth() {
+        int statusCode = RestAssured
+            .given()
+                .headers(AuthUtil.getApiKeyHeaders())
+            .when()
+                .get("/secure/resource")
+            .then()
+                .extract().statusCode();
+
+        Assert.assertEquals(statusCode, 200, "API Key auth failed!");
+    }
 //
 //    @Test
 //    public void testBearerTokenAuth() {

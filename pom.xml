@@ -123,6 +123,7 @@
 						<suiteXmlFile>testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
 					<testFailureIgnore>false</testFailureIgnore>
+					<groups>${groups}</groups>
 				</configuration>
 			</plugin>
 

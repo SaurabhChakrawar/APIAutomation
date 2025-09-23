@@ -28,6 +28,7 @@ public class BaseTest {
     @BeforeClass
     public void setup() {
         String baseUrl = ConfigManager.getProperty("baseUrl");
+        System.out.println(">>> Using Base URI: [" + baseUrl + "]");
         RestAssured.filters(new RequestLoggingFilter(), new ResponseLoggingFilter());
         RestAssured.baseURI = baseUrl;
         
