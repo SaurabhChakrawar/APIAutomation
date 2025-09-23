@@ -6,9 +6,11 @@ C:\Users\saura\OneDrive\Documents\APIAutomation\APIAutomation\src\test\java\util
 C:\Users\saura\OneDrive\Documents\APIAutomation\APIAutomation\src\test\java\utils\Retry.java
 C:\Users\saura\OneDrive\Documents\APIAutomation\APIAutomation\src\test\java\utils\AuthUtil.java
 C:\Users\saura\OneDrive\Documents\APIAutomation\APIAutomation\src\test\java\utils\DataProviderUtils.java
+C:\Users\saura\OneDrive\Documents\APIAutomation\APIAutomation\src\test\java\utils\ExtentLoggingFilter.java
 C:\Users\saura\OneDrive\Documents\APIAutomation\APIAutomation\src\test\java\utils\UserApi.java
 C:\Users\saura\OneDrive\Documents\APIAutomation\APIAutomation\src\test\java\models\Phone.java
 C:\Users\saura\OneDrive\Documents\APIAutomation\APIAutomation\src\test\java\tests\UserTests.java
+C:\Users\saura\OneDrive\Documents\APIAutomation\APIAutomation\src\test\java\utils\ExtentLogger.java
 C:\Users\saura\OneDrive\Documents\APIAutomation\APIAutomation\src\test\java\utils\RequestBuilder.java
 C:\Users\saura\OneDrive\Documents\APIAutomation\APIAutomation\src\test\java\utils\ConfigManager.java
 C:\Users\saura\OneDrive\Documents\APIAutomation\APIAutomation\src\test\java\utils\ExtentTestListener.java
